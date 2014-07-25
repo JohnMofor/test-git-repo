@@ -11,7 +11,7 @@ class Test(unittest.TestCase):
 
 
     def testName(self):
-        self.assertEqual(get_Django_version(), "1.6.3")
+        self.assertEqual(get_Django_version(), "1.6.5")
         
     def testName2(self):
         self.assertEqual(get_Django_version(), "1.6.5")
