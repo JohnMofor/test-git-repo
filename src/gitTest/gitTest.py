@@ -1,4 +1,6 @@
+import django
 
+def get_Django_version():
+    return django.get_version()
 
-if __name__ == '__main__':
-    print "hello git"
+print get_Django_version()
